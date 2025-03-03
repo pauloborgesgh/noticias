@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Notícias</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Portal de Notícias</h1>
+        <nav>
+          <ul>
+            <li><a href="#" class="active" data-category="all">Todas</a></li>
+            <li><a href="#" data-category="politica">Política</a></li>
+            <li><a href="#" data-category="esportes">Esportes</a></li>
+            <li><a href="#" data-category="tecnologia">Tecnologia</a></li>
+            <li><a href="#" data-category="entretenimento">Entretenimento</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <h2>Últimas Notícias</h2>
+        <p>Fique por dentro dos acontecimentos mais recentes do Brasil e do mundo.</p>
+      </div>
+    </div>
+
+    <main class="container">
+      <section class="featured-news">
+        <h3>Destaque</h3>
+        <div class="featured-article">
+          <img src="https://via.placeholder.com/800x400" alt="Notícia em destaque" />
+          <div class="featured-content">
+            <span class="category tecnologia">Tecnologia</span>
+            <h2>Nova tecnologia promete revolucionar o mercado de smartphones</h2>
+            <p class="date">Publicado em 15 de agosto de 2025</p>
+            <p class="excerpt">
+              Uma nova tecnologia desenvolvida por pesquisadores brasileiros promete aumentar a duração da bateria dos smartphones em até 300%. A inovação utiliza materiais sustentáveis e deve chegar ao mercado nos próximos meses.
+            </p>
+            <a href="#" class="read-more">Leia mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-grid" id="news-container">
+        <!-- Notícias serão carregadas via JavaScript -->
+      </section>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h3>Mais Lidas</h3>
+          <ul class="popular-posts">
+            <li>
+              <a href="#">Economia brasileira cresce 2,5% no último trimestre</a>
+              <span class="views">1.2K visualizações</span>
+            </li>
+            <li>
+              <a href="#">Seleção brasileira anuncia novo técnico para Copa de 2026</a>
+              <span class="views">980 visualizações</span>
+            </li>
+            <li>
+              <a href="#">Novo filme brasileiro é indicado ao Oscar</a>
+              <span class="views">756 visualizações</span>
+            </li>
+            <li>
+              <a href="#">Cientistas descobrem nova espécie na Amazônia</a>
+              <span class="views">621 visualizações</span>
+            </li>
+          </ul>
+        </div>
+        <div class="widget">
+          <h3>Inscreva-se</h3>
+          <p>Receba as últimas notícias diretamente no seu e-mail</p>
+          <form id="newsletter-form">
+            <input type="email" placeholder="Seu e-mail" required />
+            <button type="submit">Inscrever</button>
+          </form>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>Sobre o Portal</h3>
+            <p>O Portal de Notícias é um site dedicado a trazer informações atualizadas e confiáveis sobre os principais acontecimentos no Brasil e no mundo.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Termos de Uso</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Redes Sociais</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon">Facebook</a>
+              <a href="#" class="social-icon">Twitter</a>
+              <a href="#" class="social-icon">Instagram</a>
+              <a href="#" class="social-icon">YouTube</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Portal de Notícias. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
